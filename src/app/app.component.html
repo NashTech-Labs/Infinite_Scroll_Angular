@@ -1,0 +1,8 @@
+<h1 class="heading">
+  Lazy loaded infinite scroller
+</h1>
+<div class="container" infiniteScroll [infiniteScrollDistance]="0.5" (scrolled)="onScroll($event)">
+  <div *ngFor="let box of boxes" class="boxes">
+    <img class="coconut" src="https://img.icons8.com/fluency/48/null/coconut-cocktail.png"/>
+  </div>
+</div>

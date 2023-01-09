@@ -1,0 +1,30 @@
+.boxes {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 28vh;
+  width: 44vw;
+  border: 2px solid gray;
+}
+
+.heading {
+  text-align: center;
+}
+
+.coconut {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 20vw;
+  height: 24vh;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5vw;
+  grid-row-gap: 5px;
+}
