@@ -1,6 +1,7 @@
 # InfiniteScroll
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+This template showcase the infinte-scroll using ngx-infinite-scroll@6.0.1
 
 ## Development server
 
